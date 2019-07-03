@@ -43,8 +43,8 @@ export default class App extends Component {
           </div>
           <div className="col-md-9">
             <div className="row">
-              <div className="col-md-12 text-center">
-                <h3 className="text-white">Contactos</h3>
+              <div className="col-md-12 text-center ">
+                <h3 className="text-white mb-2">Contactos</h3>
                 <div className="form-group">
                   <input type="text" className="form-control" placeholder="Busqueda"></input>
                 </div>
