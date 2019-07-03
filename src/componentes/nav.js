@@ -5,9 +5,9 @@ export default class Navegacion extends Component {
     render(){
         return(
             <nav className="navbar navbar-dark bg-dark">
-                <div class="text-white">
+                <h5 className="text-white mt-1">
                     Delegación SEMARNAT B.C.S.
-                </div>
+                </h5>
             </nav>
         );
     }
