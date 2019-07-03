@@ -1,2 +1,6 @@
 *************   Instalación ********************
 npx create-react-app my-app --------- en una carpeta superior al proyecto, debido a que el comando crea una carpeta con el nombre de my-app
+cd nombre-app
+npm start ------------- para correr el server de desarrollo de react
+creamos en public las carpetas js y css
+instalamos bootstrap copiando bootstrap.min.css a publica/css
