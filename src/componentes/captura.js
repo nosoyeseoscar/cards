@@ -36,7 +36,7 @@ export default class Captura extends Component {
                             onChange={this.capturaTeclado}
                         />
                     </div>
-                    <div class="text-center">
+                    <div className="text-center">
                         <button className="btn btn-primary">Guardar</button>
                     </div>
                 </form>                

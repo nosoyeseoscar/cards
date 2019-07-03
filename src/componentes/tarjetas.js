@@ -4,7 +4,7 @@ import React, { Component } from "react";
 export default class Tarjetas extends Component {
     render(){
         return(
-            <div className="col-md-3">
+            <div className="col-md-4">
                 <div className="card mt-4">
                     <div className="card-header">
                         <h3>{this.props.tarjeta.nombre}</h3>
