@@ -1,0 +1,20 @@
+{
+    "contactos-ejemplo":[
+        {
+            "nombre": "Oscar Fuentes Esteves",
+            "tel"   : "6121404564",
+            "correo": "oscar.fuentes@semarnat.gob.mx"
+        },
+        {
+            "nombre": "Joost Elffers",
+            "tel"   : "6121412134",
+            "correo": "joost.stop@semarnat.gob.mx"
+        },
+        {
+            "nombre": "Josue La Mano Peluda",
+            "tel"   : "612146666666",
+            "correo": "josue.mano@semarnat.gob.mx"
+        }
+    ]  
+    
+}
