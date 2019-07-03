@@ -18,8 +18,15 @@ export default class App extends Component {
   }
 
   /* Funciones Generales de la App */
-  borrarTarjeta(i){
-  
+  borrarTarjeta(index){
+    if (window.confirm('¿Borro ésta tarea?')){
+      this.setState({
+        ejemplos:this.state.ejemplos.filter((e, i)=>{
+          /* filtramos el indice que no queremos en el arreglo */
+          return i !==index
+        })
+      });
+    }
   }
   
   render(){
@@ -29,13 +36,23 @@ export default class App extends Component {
     return (
       <div className="App">
         <Navegacion/>
-      <div className="row">
-        <div className="col-md-3 border-right">
-          <Captura />
-        </div>
-        <div className="col-md-9">
-          <div className="row">
-            {contactos}
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-3 border-right mt-2">
+            <Captura />
+          </div>
+          <div className="col-md-9">
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <h3 className="text-white">Contactos</h3>
+                <div className="form-group">
+                  <input type="text" className="form-control" placeholder="Busqueda"></input>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              {contactos}
+            </div>
           </div>
         </div>
       </div>

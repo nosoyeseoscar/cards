@@ -4,7 +4,7 @@ import React, { Component } from "react";
 export default class Captura extends Component {
     render(){
         return(
-            <div className="card">
+            <div className="card my-1">
                 <form className="card-body">
                     <h5 className="card-title text-center mx-1">
                         Datos del contacto
