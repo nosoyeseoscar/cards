@@ -50,9 +50,7 @@ export default class App extends Component {
                 </div>
               </div>
             </div>
-            <div className="row">
-              {contactos}
-            </div>
+            <div className="row">{contactos}</div>
           </div>
         </div>
       </div>

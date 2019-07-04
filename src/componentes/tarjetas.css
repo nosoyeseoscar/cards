@@ -1,0 +1,6 @@
+.btn-justifica {
+    /* Estilos para que el botón de nombre de contacto justifique el texto */
+    white-space:normal !important;
+    word-wrap: break-word; 
+    /* word-break: normal; */
+}
