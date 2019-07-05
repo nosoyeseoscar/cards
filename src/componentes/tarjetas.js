@@ -2,13 +2,6 @@
 import React, { Component } from "react";
 import './tarjetas.css';
 
-
-{/* {this.props.tarjeta.tel}
-    {this.props.tarjeta.correo}
-    <div className="mx-auto">
-        <button className="btn btn-danger" onClick={this.props.borrarTarjeta.bind(this, this.props.index)}>Borrar</button>
-    </div>  */}
-
 export default class Tarjetas extends Component {
     render(){
         return(           
