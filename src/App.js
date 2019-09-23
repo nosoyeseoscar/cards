@@ -14,7 +14,7 @@ export default class App extends Component {
   constructor(){
     /* se ejecuta antes que los otros métodos */
     super(); /* con esto heredamos los procedimientos de la clase extends, y no marque error */
-    this.state = {ejemplos}
+    this.state = {ejemplos} /* cargamos los ejemplos como parte de la inicialización del componente */
   }
 
   /* Funciones Generales de la App */
@@ -31,6 +31,7 @@ export default class App extends Component {
   
   render(){
     const contactos = this.state.ejemplos.map((tarjeta, i) => {
+      /* con map hacemos un ciclo para imprimir en pantalla las tarjetas */
       return ( <Tarjetas tarjeta={tarjeta} key= {i} index={i} borrarTarjeta={this.borrarTarjeta.bind(this)}/>);
     });
     return (
